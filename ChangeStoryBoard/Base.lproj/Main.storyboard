@@ -13,30 +13,106 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="main" id="BYZ-38-t0r" customClass="ViewController" customModule="ChangeStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChangeStoryBoard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qnZ-hi-WA7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Main" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oyj-jF-Hqc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Splash" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Of9-mV-y9l">
                                 <rect key="frame" x="16" y="20" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Oyj-jF-Hqc" secondAttribute="trailing" constant="16" id="Lzy-yT-JZF"/>
-                            <constraint firstItem="Oyj-jF-Hqc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="NqC-9x-zad"/>
-                            <constraint firstItem="Oyj-jF-Hqc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="wIb-Tc-skp"/>
+                            <constraint firstItem="pf1-6U-Zpo" firstAttribute="trailing" secondItem="Of9-mV-y9l" secondAttribute="trailing" constant="16" id="7y4-ag-vqm"/>
+                            <constraint firstItem="Of9-mV-y9l" firstAttribute="leading" secondItem="pf1-6U-Zpo" secondAttribute="leading" constant="16" id="8jR-CL-8Gv"/>
+                            <constraint firstItem="Of9-mV-y9l" firstAttribute="top" secondItem="pf1-6U-Zpo" secondAttribute="top" id="DKU-QU-RzS"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="pf1-6U-Zpo"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="4ct-fU-xQ7">
+            <objects>
+                <viewController id="9iG-Zl-ckf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OlG-4Q-XoN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mypage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUd-3s-035">
+                                <rect key="frame" x="16" y="20" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Kkl-oe-hos" firstAttribute="trailing" secondItem="MUd-3s-035" secondAttribute="trailing" constant="16" id="1ab-VI-Br7"/>
+                            <constraint firstItem="MUd-3s-035" firstAttribute="leading" secondItem="Kkl-oe-hos" secondAttribute="leading" constant="16" id="vWB-Id-X0C"/>
+                            <constraint firstItem="MUd-3s-035" firstAttribute="top" secondItem="Kkl-oe-hos" secondAttribute="top" id="wP0-7P-Ei4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Kkl-oe-hos"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="qOj-lY-ecq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j1b-58-Ezi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1720.8" y="359.37031484257875"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="erC-iu-Cxu">
+            <objects>
+                <viewController id="N9T-ha-ZNk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AKO-qP-hWl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lQj-T0-3TJ">
+                                <rect key="frame" x="16" y="20" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lQj-T0-3TJ" firstAttribute="top" secondItem="iph-55-HbM" secondAttribute="top" id="RGi-46-hX2"/>
+                            <constraint firstItem="iph-55-HbM" firstAttribute="trailing" secondItem="lQj-T0-3TJ" secondAttribute="trailing" constant="16" id="rGV-gX-WY2"/>
+                            <constraint firstItem="lQj-T0-3TJ" firstAttribute="leading" secondItem="iph-55-HbM" secondAttribute="leading" constant="16" id="spd-Wi-FQf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iph-55-HbM"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="Gb6-Xi-GOc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mwL-ep-bzS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1720.8" y="-305.39730134932535"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Phz-bn-9DZ">
+            <objects>
+                <tabBarController storyboardIdentifier="main" id="SjV-NT-hmY" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="05X-ap-tQn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="N9T-ha-ZNk" kind="relationship" relationship="viewControllers" id="Qnj-xY-2xK"/>
+                        <segue destination="9iG-Zl-ckf" kind="relationship" relationship="viewControllers" id="CNB-4x-w14"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sdA-Do-LAb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="770" y="28"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="39t-it-34k">
