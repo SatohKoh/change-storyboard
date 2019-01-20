@@ -14,6 +14,7 @@
 		868F51D521F451CD000D631C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868F51D321F451CD000D631C /* LaunchScreen.storyboard */; };
 		868F51E021F451CD000D631C /* ChangeStoryBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F51DF21F451CD000D631C /* ChangeStoryBoardTests.swift */; };
 		868F51EB21F451CD000D631C /* ChangeStoryBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F51EA21F451CD000D631C /* ChangeStoryBoardUITests.swift */; };
+		868F51F921F45517000D631C /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F51F821F45517000D631C /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		868F51E621F451CD000D631C /* ChangeStoryBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChangeStoryBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		868F51EA21F451CD000D631C /* ChangeStoryBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeStoryBoardUITests.swift; sourceTree = "<group>"; };
 		868F51EC21F451CD000D631C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868F51F821F45517000D631C /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				868F51D121F451CD000D631C /* Assets.xcassets */,
 				868F51D321F451CD000D631C /* LaunchScreen.storyboard */,
 				868F51D621F451CD000D631C /* Info.plist */,
+				868F51F821F45517000D631C /* RegisterViewController.swift */,
 			);
 			path = ChangeStoryBoard;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868F51F921F45517000D631C /* RegisterViewController.swift in Sources */,
 				868F51CD21F451CC000D631C /* ViewController.swift in Sources */,
 				868F51CB21F451CC000D631C /* AppDelegate.swift in Sources */,
 			);

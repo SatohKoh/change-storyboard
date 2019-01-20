@@ -16,7 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        changeStoryBoard()
         return true
+    }
+    
+    func changeStoryBoard() {
+        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let viewController: UIViewController
+        
+        // 表示するビューコントローラーを指定
+        if UserDefaults.standard.object(forKey: "userName") != nil {
+            viewController = storyboard.instantiateViewController(withIdentifier: "main") as UIViewController
+        } else {
+            viewController = storyboard.instantiateViewController(withIdentifier: "tutorial") as UIViewController
+        }
+        
+        window?.rootViewController = viewController
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
